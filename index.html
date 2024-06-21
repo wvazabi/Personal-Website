@@ -5,42 +5,36 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>Personal Webpage</title>
+  <link rel="icon" href="batman.jpg" type="image/jpeg">
   <style>
       body {
           font-family: 'Arial', sans-serif;
           background-color: #f0f0f0;
           color: #333;
-          margin: 25;
-          padding: 10;
-          text-align: left; /* Sayfa içeriğini sol hizalı yapar */
-      }
-      .container {
+          margin: 0;
+          padding: 0;
           display: flex;
           flex-direction: column;
-          align-items: center; /* İçerikleri dikeyde ortalar */
-          justify-content: center; /* İçerikleri yatayda ortalar */
+          align-items: center;
+          justify-content: center;
           min-height: 100vh;
+          text-align: center;
       }
       h1, h2, h3 {
           color: #0073e6;
-          text-align: center; /* Başlıkları ortalar */
       }
       p {
           font-size: 16px;
           line-height: 1.6;
       }
       ul, ol {
-         
+          list-style-position: inside;
           padding-left: 0;
-         ; /* Liste içeriğini ortalar */
+          text-align: center;
       }
       ul li, ol li {
-          
+          display: inline-block;
           margin: 10px;
-      }
-      .profile-photo {
-          text-align: center; /* Profil fotoğrafını ortalar */
-          margin-bottom: 20px;
       }
       .profile-photo img {
           border-radius: 50%;
@@ -48,7 +42,6 @@
           height: 200px;
       }
       .map-container {
-          text-align: center; /* Harita kutusunu ortalar */
           margin-top: 20px;
           margin-bottom: 20px;
       }
